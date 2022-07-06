@@ -117,6 +117,9 @@
 
 [프리온보딩 #1 - 선별과제 리팩토링 - 좋아요 기능 구현](https://velog.io/@eeeve/%EC%9B%90%ED%8B%B0%EB%93%9C-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-1-%EC%A2%8B%EC%95%84%EC%9A%94-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
+![like](https://user-images.githubusercontent.com/99471927/177492722-7a1e2502-a31f-43f3-ac5e-0da62c26b69e.gif)
+
+
 </br>
 </br>
 
