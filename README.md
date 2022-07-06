@@ -13,7 +13,7 @@
 | 이우정 | 팀원 </br> Frontend | - 댓글 삭제 기능 추가 </br> - 좋아요 버튼 추가                                                                                                                                            |
 | 이상지 | 팀장 </br> Frontend | - Login form 유효성 확인 input border 수정 </br> - README 작성                                                                                                                            |
 | 이혜림 | 팀원 </br> Frontend | - Header Throtling 구현 </br> - Fetched Data 랜덤 셔플 기능 추가 </br> - Feed Image accordion 구현 </br> - Main Pull to Refresh 구현                                                      |
-| 홍승연 | 팀원 </br> Frontend | - Global layout 구현 </br> - Gnb 스타일 수정 </br> - routes 컴포넌트 구현 (Routing 및 Redirection 처리) </br> - User auth 처리 로직을 useAuth 훅으로 분리 </br> - 회원가입 처리 로직 구현 |
+| 홍승연 | 팀원 </br> Frontend | - Global layout 구현 </br> - Gnb 스타일 수정 </br> - routes 컴포넌트 구현 (Routing 및 Redirection 처리) </br>   - User auth 처리 로직을 useAuth 훅으로 분리 </br> - 회원가입 처리 로직 구현 |
 
 # 기술 스택
 
@@ -174,5 +174,5 @@ https://user-images.githubusercontent.com/69149030/177487714-22d25719-4c46-403c-
 
 #### 사용자 auth 처리 로직을 useAuth 훅으로 분리 및 회원가입 구현
 
-[상세 설명](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/26)
-
+- [auth 로직을 useAuth 훅으로 분리 PR](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/2)
+- [회원가입 로직 구현](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/26)
