@@ -9,11 +9,11 @@
 
 | 이름   | 팀 구성             | 기능 구현 및 역할                                                                                                                                                                         |
 | ------ | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 김수빈 | 팀원 </br> Frontend | - Image Lazy Lodaing 기능 추가 </br> - Feed 메뉴 모달 생성                                                                                                                                |
+| 김수빈 | 팀원 </br> Frontend | - Image Lazy Lodaing 기능 추가 </br> - Feed 메뉴 모달, 삭제 기능                                                                                                                          |
 | 이우정 | 팀원 </br> Frontend | - 댓글 삭제 기능 추가 </br> - 좋아요 버튼 추가                                                                                                                                            |
 | 이상지 | 팀장 </br> Frontend | - Login form 유효성 확인 input border 수정 </br> - README 작성                                                                                                                            |
 | 이혜림 | 팀원 </br> Frontend | - Header Throtling 구현 </br> - Fetched Data 랜덤 셔플 기능 추가 </br> - Feed Image accordion 구현 </br> - Main Pull to Refresh 구현                                                      |
-| 홍승연 | 팀원 </br> Frontend | - Global layout 구현 </br> - Gnb 스타일 수정 </br> - routes 컴포넌트 구현 (Routing 및 Redirection 처리) </br>   - User auth 처리 로직을 useAuth 훅으로 분리 </br> - 회원가입 처리 로직 구현 |
+| 홍승연 | 팀원 </br> Frontend | - Global layout 구현 </br> - Gnb 스타일 수정 </br> - routes 컴포넌트 구현 (Routing 및 Redirection 처리) </br> - User auth 처리 로직을 useAuth 훅으로 분리 </br> - 회원가입 처리 로직 구현 |
 
 # 기술 스택
 
@@ -91,11 +91,19 @@
 
 #### Img lazy loading
 
-[상세설명](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/6)
+![img_lazyloading](https://user-images.githubusercontent.com/90506668/177711816-1483a565-c2ce-4d77-aaa8-b7ab0dc320ba.gif)
+
+Intersection Observer API 사용
+
+[Pull Request](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/6)
 
 #### delete feed
 
-[상세설명](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/31)
+![delete_feed](https://user-images.githubusercontent.com/90506668/177711801-61eb46e5-29b1-4239-8c21-7bca8cdbf9a3.gif)
+
+Portal 사용
+
+[Pull Request](https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/pull/31)
 
 </br>
 </br>
@@ -112,13 +120,11 @@
 
 ![delete-comment](https://user-images.githubusercontent.com/92660097/177489077-f7b4912b-9bf0-41eb-a616-7c5c903a87bb.gif)
 
-
 #### 좋아요 기능 구현
 
 [프리온보딩 #1 - 선별과제 리팩토링 - 좋아요 기능 구현](https://velog.io/@eeeve/%EC%9B%90%ED%8B%B0%EB%93%9C-%ED%94%84%EB%A6%AC%EC%98%A8%EB%B3%B4%EB%94%A9-1-%EC%A2%8B%EC%95%84%EC%9A%94-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
 ![like](https://user-images.githubusercontent.com/99471927/177492722-7a1e2502-a31f-43f3-ac5e-0da62c26b69e.gif)
-
 
 </br>
 </br>
@@ -129,7 +135,6 @@
 
 ![loginform](https://user-images.githubusercontent.com/92660097/177489200-965aba8b-7685-4c85-9225-14090fa761b2.gif)
 
-
 </br>
 </br>
 
@@ -139,7 +144,6 @@
 2. 각 feed에 image accordion
 3. fetched Data에 random shuffle 추가
 4. Pull to refresh 구현
-
 
 - 해당 Issue : https://github.com/Wanted-Pre-Onboarding-Frontend-2/wanted-pre-onboarding-fe-refactor/issues/22
 
